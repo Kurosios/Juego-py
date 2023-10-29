@@ -18,9 +18,11 @@ class Bag:
             print (f'Elemento \n Nombre: {elemento.nombre}\n Peso: {elemento.peso}')
         
     def ver_mochila (self):
-        print ( f' {self.imprimir_inventario()} chica \n Peso: {self.peso} \n Peso max: {self.max}')
+        return f'{self.imprimir_inventario()} chica \n Peso: {self.peso} \n Peso max: {self.max}'
         
     def borrar_item (self, item):
         self.peso -= item.peso
         self.inventario.remove(item)
+        
+
         
