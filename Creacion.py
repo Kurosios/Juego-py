@@ -10,10 +10,3 @@ class Personaje :
         self.inventario = bag.Bag()
 
 
-
-p = Personaje()
-
-print(p.Nivel.info())
-print(f'Vida: {p.Vida}')
-print(p.habilidad.informacion())
-print(p.inventario.bag.ver_mochila())
